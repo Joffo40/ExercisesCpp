@@ -11,7 +11,7 @@ int main()
     int moyenne(0);
     int variable(0);
 
-    while(variable != -1)
+    while(1)
     {
 
         cout << "Donnez la valeur d'entrée "<< n+1 <<"(tapez -1 pour sortir):" << endl;
@@ -19,7 +19,7 @@ int main()
 
         if(variable==-1)
         {
-            break;   // sortie si -1v est entré.
+            break;   // sortie si -1 est entré.
         }
         else
         {
@@ -30,6 +30,7 @@ int main()
      n++;
     }
     int const taille(tableau.size());
+
     for(int i=0;i<taille;i++)
     {
     somme+=tableau[i];
