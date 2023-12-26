@@ -27,6 +27,7 @@ int main()
 
         }
 
+
      n++;
     }
     int const taille(tableau.size());

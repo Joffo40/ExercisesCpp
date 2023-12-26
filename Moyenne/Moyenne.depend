@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1701444522 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/Moyenne/main.cpp
+	<iostream>
+	<vector>
+
