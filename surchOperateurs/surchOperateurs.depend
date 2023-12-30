@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1703959796 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/Duree.cpp
+	"Duree.hpp"
+	<iostream>
+
+1703960053 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/Duree.hpp
+
+1703959830 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/main.cpp
+	<iostream>
+	"Duree.hpp"
+
