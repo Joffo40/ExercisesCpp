@@ -1,13 +1,17 @@
 #ifndef DUREE_HPP_INCLUDED
 #define DUREE_HPP_INCLUDED
+using namespace std;
+
 class Duree
 {
     public:
-
-    Duree(int heures = 0, int minutes = 0, int secondes = 0);
+    Duree();
+    Duree(int heures, int minutes, int secondes);
 
     bool estEgal(Duree const& b) const;
-
+    bool estDifferent(Duree const& b) const;
+    bool estSuperieur(Duree const& b) const;
+    bool estInferieur(Duree const& b) const;
 
     private:
 
@@ -17,6 +21,10 @@ class Duree
 };
 
 bool operator==(Duree const& a, Duree const& b);
-
+bool operator!=(Duree const& a, Duree const& b);
+bool operator<(Duree const& a, Duree const& b);
+bool operator>(Duree const& a, Duree const& b);
+bool operator<=(Duree const& a, Duree const& b);
+bool operator>=(Duree const& a, Duree const& b);
 
 #endif // DUREE_HPP_INCLUDED
