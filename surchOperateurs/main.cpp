@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     //Duree duree1, duree2;
-    Duree duree1(50,10,10), duree2(10,10,10);
+    Duree resultat,duree1(50,10,10), duree2(10,10,10);
 
     if(duree1==duree2)
     {
@@ -94,6 +94,11 @@ int main()
 
     };
 
+    resultat = duree1 + duree2;
+
+    resultat.affichage();
+
     return 0;
+
 
 }

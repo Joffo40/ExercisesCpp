@@ -12,6 +12,8 @@ class Duree
     bool estDifferent(Duree const& b) const;
     bool estSuperieur(Duree const& b) const;
     bool estInferieur(Duree const& b) const;
+    Duree somme(Duree const& b) const;
+    void affichage() const;
 
     private:
 
@@ -26,5 +28,7 @@ bool operator<(Duree const& a, Duree const& b);
 bool operator>(Duree const& a, Duree const& b);
 bool operator<=(Duree const& a, Duree const& b);
 bool operator>=(Duree const& a, Duree const& b);
+
+Duree operator+(Duree const& a, Duree const& b);
 
 #endif // DUREE_HPP_INCLUDED

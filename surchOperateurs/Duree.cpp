@@ -61,7 +61,27 @@ bool Duree::estInferieur(Duree const& b) const
         return false;
 };
 
+Duree Duree::somme(Duree const& b) const
+{
+    Duree resultat;
 
+    int test = b.m_heures*3600 + b.m_minutes*60 +b.m_secondes+ m_heures*3600 + m_minutes*60 + m_secondes;
+    resultat.m_heures=test / 3600;
+    resultat.m_minutes=(test % 3600)/60;
+    resultat.m_secondes=((test % 3600)%60)/60;
+
+    return resultat;
+
+
+
+
+}
+void Duree::affichage() const
+{
+
+    cout<<"La somme est égale à "<<m_heures<<" heures "<<m_minutes<<" minutes "<< m_secondes<<" secondes."<<endl;
+
+}
 
 
 
@@ -113,4 +133,14 @@ bool operator<=(Duree const& a, Duree const& b)
     else
         return false;
 };
+
+Duree operator+(Duree const& a, Duree const& b)
+{
+    Duree resultat;
+    // Calcul
+    resultat=a.somme(b);
+
+
+    return resultat;
+}
 
