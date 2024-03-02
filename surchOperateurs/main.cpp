@@ -98,6 +98,20 @@ int main()
 
     resultat.affichage();
 
+    resultat = duree1 - duree2;
+
+
+    resultat.affichageSoustr();
+
+    duree1 += duree2;
+
+    duree1.affichage();
+
+    Duree duree3(2, 25, 28), duree4(0, 16, 33);
+
+    cout << duree3 << " et " << duree4 << endl;
+
+
     return 0;
 
 

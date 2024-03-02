@@ -3,9 +3,13 @@
 	"Duree.hpp"
 	<iostream>
 
-1704636405 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/Duree.hpp
+1709391115 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/Duree.hpp
 
-1704636672 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/main.cpp
+1709391002 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/main.cpp
 	<iostream>
+	"Duree.cpp"
+
+1709391194 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/surchOperateurs/Duree.cpp
 	"Duree.hpp"
+	<iostream>
 
