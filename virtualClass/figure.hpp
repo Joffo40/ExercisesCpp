@@ -5,27 +5,27 @@
 class Figure
 {
     public:
-        Figure();
+        //Figure();
         virtual ~Figure();
-        void afficher();
+        virtual void afficher();
         virtual double aire() const = 0;
     protected:
 
     private:
 };
 
-class Triangle : public Figure
+class Triangle : virtual public Figure
 {
     public:
-        Triangle(double base, double hauteur);
+        Triangle(double, double);
         virtual ~Triangle();
-        void afficher();
-        virtual double aire() const = 0;
+        virtual void afficher();
+        virtual double aire() const;
 
 
     private:
-    int m_base;
-    int m_hauteur;
+    double m_base;
+    double m_hauteur;
 };
 class Carree : public Figure
 {

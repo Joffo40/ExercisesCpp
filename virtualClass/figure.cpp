@@ -1,31 +1,14 @@
-#include "figure.h"
-#include <iostream>
+#include "figure.hpp"
+
 
 using namespace std;
 
-Figure::Figure()
-{
-    //ctor
-    //m_base = base;
-    //m_hauteur = hauteur;
-
-}
-
-Figure::~Figure()
-{
-    //dtor
-}
 void Figure::afficher()
 {
 cout<<"Je suis une figure"<<endl;
 }
-Triangle::Triangle(double base, double hauteur)
-{
-    //ctor
-    this->m_base = base;
-    this->m_hauteur = hauteur;
+Triangle::Triangle(double base, double hauteur):m_base(base),m_hauteur(hauteur){}
 
-}
 void Triangle::afficher()
 {
 cout<<"Je suis un triangle"<<endl;
