@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1709907570 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/main.cpp
+	<iostream>
+	<figure.h>
+
+1709911162 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/include/figure.h
+
+1709911405 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/src/figure.cpp
+	"figure.h"
+	<iostream>
+
