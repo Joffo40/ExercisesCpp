@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1703858197 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exercisePOO1/Arme.cpp
+	"Arme.hpp"
+
+1703858119 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exercisePOO1/Arme.hpp
+	<iostream>
+	<string>
+
+1703857856 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exercisePOO1/main.cpp
+	<iostream>
+	<string>
+	"Personnage.hpp"
+
+1703857966 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exercisePOO1/Personnage.hpp
+	<iostream>
+	<string>
+	"Arme.hpp"
+
+1703863918 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exercisePOO1/Personnage.cpp
+	"Personnage.hpp"
+

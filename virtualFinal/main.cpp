@@ -1,5 +1,5 @@
 #include <iostream>
-#include "figure2.h"
+#include "figure.h"
 
 using namespace std;
 

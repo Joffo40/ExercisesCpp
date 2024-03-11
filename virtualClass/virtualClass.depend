@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1709930440 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/main.cpp
+1710165297 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/main.cpp
 	<iostream>
-	"figure.cpp"
+	"figure2.h"
 
 1709929672 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/include/figure.h
 
@@ -9,10 +9,27 @@
 	"figure.h"
 	<iostream>
 
-1709928479 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/figure.h
+1709933717 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/figure.h
 
-1709930394 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/figure.cpp
+1709972085 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/figure.cpp
+	<iostream>
 	"figure.hpp"
 
-1709930523 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/figure.hpp
+1709933717 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/figure.hpp
+
+1709972672 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/Figure.cpp
+	<iostream>
+	"Figure.hpp"
+
+1710164213 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/Figure.hpp
+
+1710165436 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/src/figure2.cpp
+	"figure2.h"
+
+1710165736 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/include/figure2.h
+
+1710165773 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/src/triangle2.cpp
+	"figure2.h"
+
+1710165093 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/virtualClass/include/triangle2.h
 
