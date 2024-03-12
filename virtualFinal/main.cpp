@@ -6,8 +6,9 @@ using namespace std;
 int main()
 {
     cout << "Hello world!" << endl;
-    Triangle2 objTrianglr(20.0,89.1);
-    Triangle2 *ptriangle = new Triangle2(10.0,67.0);
+
+    Triangle objTrianglr(20.0,89.1);
+    Triangle *ptriangle = new Triangle(10.0,67.0);
 
     //Figure *ptriangle();
     //ptriangle = new Triangle(39,78);
