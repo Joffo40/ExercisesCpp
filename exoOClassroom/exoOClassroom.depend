@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1710349808 source:/home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exoOClassroom/main.cpp
+	<iostream>
+	"fraction.h"
+
+1710430520 /home/joffo/Documents/C++/OpenClassRoom/ExercisesCpp/exoOClassroom/include/fraction.h
+	<iostream>
+
