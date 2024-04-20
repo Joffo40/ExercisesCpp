@@ -183,3 +183,4 @@ ostream &operator<<( ostream &flux, Duree const& duree)
     duree.afficherDuree(flux) ;
     return flux;
 }
+
